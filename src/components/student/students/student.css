@@ -1,0 +1,44 @@
+.students{
+    width: 80%;
+    margin:30px auto;
+    border: 1px solid rgb(194, 188, 188);
+    box-shadow: 0 2px 3px rgb(124, 120, 120);
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+.students label{
+    display: block;
+    margin: 18px auto;
+    text-align: center;
+    font-weight: bold;
+    direction: rtl;
+}
+
+.students input{
+    width: 80%;
+    height: 30px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding: 5px;
+    direction: rtl;
+}
+input[type=number],input[type=email]{
+    direction: ltr;
+}
+.student-section{
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    font-family: tahoma;
+}
+@media (min-width:500px){
+    .students{
+        width: 400px;
+    }
+}

@@ -1,0 +1,28 @@
+.Button{
+    background-color: transparent;
+    border: 1px solid transparent;
+    color: white;
+    outline: none;
+    font-family: tahoma;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.Success{
+    background-color: green;
+}
+.Danger{
+    background-color: red;
+}
+.Black{
+    background-color: rgb(13, 78, 90);
+}
+.blue{
+    background-color: blue;
+}

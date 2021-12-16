@@ -1,0 +1,28 @@
+.menu-item{
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+.menu-item a{
+    color: #9e9e9e;
+    height: 100%;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    box-sizing: border-box;
+}
+.menu-item a:hover,
+.menu-item a:active{
+    color: #4b3f3fd1;
+}
+
+@media(max-width:499px){
+    .menu-item{
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: 10px 0;
+    }
+}

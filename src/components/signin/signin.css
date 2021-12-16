@@ -1,0 +1,44 @@
+
+img{
+    width: 100px;
+    height: 100px;
+}
+input{
+    width: 95%;
+    height: 45px;
+    padding: 5px;
+    outline: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin: 10px auto;
+    border: 1px solid rgb(163, 161, 161);
+    box-sizing: border-box;
+    direction: ltr;
+}
+.captcha_view{
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 5px;
+}
+.captcha_view img{
+    width: 42px;
+    height: 42px;
+    margin: 5px;
+    cursor: pointer;
+}
+.captcha_view p{
+    font-size: 22px;
+    color: #000;
+    text-align: center;
+    direction: ltr;
+}
+.captcha_view input{
+    width: 60%;
+}

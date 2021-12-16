@@ -1,0 +1,21 @@
+.darkmode{
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    position: fixed;
+    right: 30px;
+    bottom: 40px;
+
+} 
+.darkmode img{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 1px solid black;
+}
